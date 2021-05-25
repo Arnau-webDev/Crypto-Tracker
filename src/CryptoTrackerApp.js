@@ -11,7 +11,7 @@ const CryptoTrackerApp = () => {
 			.then(res => res.json())
 			.then(data => {
 				setCryptos(data);
-				console.log(data);
+				// console.log(data);
 			})
 			.catch(e => console.log(e));
 	}, []);
