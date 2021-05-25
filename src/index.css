@@ -1,13 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,400&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #253038;
+    font-family: 'KoHo', sans-serif;
+    font-size: 1.2rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+    color: #c39e44;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container {
+    background-color: #f8f9fc;
+    width: 75vw;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+.crypto-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.crypto-item > * {
+    width: 85px;
+}
+
+button {
+    background-color: #0070fd;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+.table-title {
+    font-weight: 900;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: rgb(49, 138, 49);
 }
